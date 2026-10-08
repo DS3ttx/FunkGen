@@ -116,8 +116,16 @@ if __name__ == "__main__":
             all_sequences.append(seq)
             
     if all_sequences:
+        # Fatiamento em loops de 1 compasso (16 passos)
+        chunks_16 = []
+        for seq in all_sequences:
+            for i in range(0, len(seq), 16):
+                chunk = seq[i:i+16]
+                if len(chunk) == 16:  # Compasso completo
+                    chunks_16.append(chunk)
+                    
         output_path = "dataset_funk.aabb"
-        export_to_aabb(all_sequences, output_path)
-        print(f"\nConcluído! {len(all_sequences)} sequências exportadas para '{output_path}'.")
+        export_to_aabb(chunks_16, output_path)
+        print(f"\nConcluído! {len(chunks_16)} sequências de 1 compasso exportadas para '{output_path}'.")
     else:
         print("\nNenhuma sequência válida foi encontrada. Verifique o mapeamento das notas.")
