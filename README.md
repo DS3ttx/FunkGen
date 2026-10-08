@@ -77,3 +77,7 @@ O arquivo `symbol_mapping.txt` dita a conversão para PDFA. Um exemplo típico d
 * `B` = Beatbox / Tom
 * `.` = Silêncio (Rest)
 *(Notas simultâneas são agrupadas em ordem alfabética, ex: `KP` para Kick e Prato juntos).*
+
+## Uso de IA
+
+Inteligência artificial foi utilizada como apoio na elaboração deste projeto. Seu uso de forma generativa foi utilizada para gerar templates em dois pontos: no script de pré-processamento e no README. Além disso, também foi adotado o uso de revisão de bugs durante o desenvolvimento e na depuração de falhas.
