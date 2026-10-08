@@ -1,4 +1,5 @@
 import json
+import os.path
 import random
 
 import mido
@@ -178,7 +179,8 @@ def main():
 
     for i in range(args.n):
         beat = generate(model, symbol_mapping, args.chaos)
-        output_music(beat, f"beat_c{args.chaos}_{i}.mid")
+        output_path = os.path.join("beats", f"beat_c{args.chaos}_s{args.seed}_{i}.mid")
+        output_music(beat, output_path)
 
 
 if __name__ == "__main__":
