@@ -17,6 +17,7 @@ Abaixo está a organização dos diretórios e arquivos da aplicação:
 ├── pre_proc.py           # Script de pré-processamento (Quantização 1/16, Mapeamento -> .aabb)
 ├── generate_music.py     # Script que lê o modelo treinado e gera os novos beats
 └── symbol_mapping.txt    # Dicionário de mapeamento do alfabeto (ex: K=Kick, S=Snare, P=Prato)
+└── requirements.txt      # Biblioteca mido para manipulação de MIDI
 ```
 
 ## Pipeline de Funcionamento
@@ -80,4 +81,4 @@ O arquivo `symbol_mapping.txt` dita a conversão para PDFA. Um exemplo típico d
 
 ## Uso de IA
 
-Inteligência artificial foi utilizada como apoio na elaboração deste projeto. Seu uso de forma generativa foi utilizada para gerar templates em dois pontos: no script de pré-processamento e no README. Além disso, também foi adotado o uso de revisão de bugs durante o desenvolvimento e na depuração de falhas.
+Inteligência artificial foi utilizada como apoio na elaboração deste projeto. Seu uso de forma generativa foi utilizada para gerar templates em dois pontos: no script de pré-processamento e no README. Além disso, também foi adotado o uso de revisão de bugs durante o desenvolvimento, na depuração de falhas e na busca de trabalhos relacionados.
