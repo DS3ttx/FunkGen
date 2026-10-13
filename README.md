@@ -82,3 +82,5 @@ O arquivo `symbol_mapping.txt` dita a conversão para PDFA. Um exemplo típico d
 ## Uso de IA
 
 Inteligência artificial foi utilizada como apoio na elaboração deste projeto. Seu uso de forma generativa foi utilizada para gerar templates em dois pontos: no script de pré-processamento e no README. Além disso, também foi adotado o uso de revisão de bugs durante o desenvolvimento, na depuração de falhas e na busca de trabalhos relacionados.
+
+[Link](https://share.gemini.google/YZiHrB72c00T) para as conversas.
